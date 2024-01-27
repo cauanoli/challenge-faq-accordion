@@ -99,7 +99,7 @@ body {
   cursor: pointer;
 }
 
-.details__summary_icon::after {
+.details__summary__icon::after {
   content: "";
   background-image: url("../assets/images/icon-plus.svg");
   width: 32px;
@@ -112,6 +112,8 @@ body {
 }
 
 .details__content {
+  margin-block-start: 1rem;
+  font-size: var(--text-base);
 }
 
 @media (min-width: 700px) {
