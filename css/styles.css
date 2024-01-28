@@ -107,7 +107,7 @@ body {
   display: block;
 }
 
-.details[open] .details__summary_icon::after {
+.details[open] .details__summary__icon::after {
   background-image: url("../assets/images/icon-minus.svg");
 }
 
