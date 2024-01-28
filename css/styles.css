@@ -45,7 +45,7 @@ body {
   display: grid;
   padding: 2rem;
 
-  background: no-repeat url("/assets/images/background-pattern-mobile.svg");
+  background: no-repeat url("../assets/images/background-pattern-mobile.svg");
   background-size: 100%;
 }
 
@@ -118,6 +118,6 @@ body {
 
 @media (min-width: 700px) {
   .main {
-    background: repeat-x url("/assets/images/background-pattern-desktop.svg");
+    background: repeat-x url("../assets/images/background-pattern-desktop.svg");
   }
 }
