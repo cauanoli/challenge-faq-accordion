@@ -64,7 +64,7 @@ body {
   flex-direction: column;
   gap: 3rem;
 
-  width: clamp(10em, 40em, 100% - 1rem);
+  width: clamp(10rem, 38rem, 100% - 1rem);
 }
 
 .faqs__title {
